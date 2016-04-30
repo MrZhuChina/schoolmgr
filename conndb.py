@@ -13,7 +13,7 @@ print(values)
 #空数据库初始化
 if cursor.rowcount <=0 :
     db.base.init_db()
-    print('init database has done')
+    print('init database has done.')
 else:
     pass
 
